@@ -49,4 +49,7 @@ while num < 20:
       time.sleep(1)
 
 plt.stem(t, tilt)
+plt.xlabel('time')
+plt.ylabel('tilt')
+plt.title('# tilt plot')
 plt.show()

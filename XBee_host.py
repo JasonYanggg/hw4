@@ -101,6 +101,9 @@ for i in range(0, 20):
     time.sleep(1)
 
 plt.plot(t, times)
+plt.xlabel('timestamp')
+plt.ylabel('number')
+plt.title('# collected data plot')
 plt.show()
 
 s.close()
